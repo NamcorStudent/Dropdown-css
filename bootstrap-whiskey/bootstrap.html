@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
 
@@ -20,11 +21,17 @@
             <li class="nav-item mr-2 d-block d-md-none"><a href="/SignIn" class="nav-link">Sign In / Sign Up</a></li>
         </ul>
         <div class="d-none d-md-block">
-        <p class="navbar-text my-auto mr-2">Great whiskey delivered to your door<a href="/login" class="ml-2">Sign In / Sign Up</a></p>
+            <p class="navbar-text my-auto mr-2">Great whiskey delivered to your door<a href="/login" class="ml-2">Sign In / Sign Up</a></p>
         </div>
     </nav>
     <article class="container mt-3">
-
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning"><strong>Sale Is On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6!
+                <a href="">Click here for more details!</a>
+                </div>
+            </div>
+        </div>
         <!-----CALLOUT----->
 
         <section class="callout jumbotron text-center">
@@ -32,8 +39,8 @@
                 <div class="col-12">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.<s d-none d-sm-inline>€19.99</s>
-                    <span class="d-inline d-sm-none"><br></span>
-                    <strong><mark>First one is free!!!</mark></strong></p>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>First one is free!!!</mark></strong></p>
                     <p><button class="btn btn-success btn-lg">Sign Up!</button></p>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </div>
@@ -50,16 +57,30 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I am able to see and hear better. It made me feel 20 all over again. #approve</p>
-                        <p>George Forman</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block ">
+                        <img src="../images/quote-one.jpg" class="rounded-circle mr-3" height=100 width=100/>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I am able to see and hear better. It made me feel 20 all over again. #approve</p>
+                                <p>George Forman</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>Best thing I have ever done. It has changed my life.</p>
-                        <p>Joseph Placer</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                        <img src="../images/quote-two.jpg" class="rounded-circle mr-3" height=100 width=100/>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Best thing I have ever done. It has changed my life.</p>
+                                <p>Joseph Placer</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,7 +98,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fas fa-hand-holding-heart d-none d-sm-inline"></i>Feature 1 <span class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, harum, laborum? Eveniet quaerat tenetur pariatur magni cupiditate aut atque animi iste aspernatur adipisci, consequuntur maxime numquam quod aperiam perspiciatis eligendi
                             accusantium deleniti explicabo perferendis est illum repellendus reprehenderit nostrum odit?</p>
                         <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
@@ -85,7 +106,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="far fa-credit-card d-none d-sm-inline"></i>Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa vitae laborum expedita fuga reiciendis, deleniti distinctio accusamus qui? Similique a, porro facere, saepe corrupti commodi dolorem in mollitia fugit doloribus
                             quis labore illo quos repellendus rem possimus fugiat hic.</p>
                         <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
@@ -93,7 +114,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i>Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur aliquid voluptate nulla culpa a saepe adipisci dolores et optio, nam vel quod consectetur praesentium rerum. Quis eveniet, illum officia totam necessitatibus
                             natus error exercitationem, expedita hic quos ratione perspiciatis.</p>
                         <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
