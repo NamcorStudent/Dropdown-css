@@ -90,16 +90,25 @@ body {
     color: #d0d0d0;
 }
 
-/*Block Deviders*/
+/*Block Dviders*/
 
-.block-devider{
+.block-divider{
     height: 5px;
     width: 75px;
     border: 0;
+    background-color: #444;
 }
 
-.block-devider--orange{
+.block-divider--orange{
     background-color: #f05f40;
+}
+
+.block-divider--short{
+    width: 35px;    
+}
+
+.block-divider--white{
+    background-color: white;
 }
 
 /*Headers*/
@@ -107,6 +116,20 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
+.quotes .page-header{
+    margin-bottom: 25px;
 }
 
 /*Buttons*/
@@ -129,4 +152,38 @@ body {
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+/*Content containers*/
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper{}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
