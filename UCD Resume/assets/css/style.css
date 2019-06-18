@@ -1,3 +1,10 @@
-body{
-    
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.logo{
+     background: url("https://i.dailymail.co.uk/i/newpix/2018/07/31/19/4EA90B6000000578-0-image-a-33_1533061310244.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     background-size: cover;
 }
+
